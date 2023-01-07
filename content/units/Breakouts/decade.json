@@ -9,11 +9,10 @@
             "health": 276,
             "buildSpeed": 0.8,
             "armor": 4,
-            "commandLimit": 8,
 
             "weapons": [
                     {
-                "name": "purp-smoll",
+                "name": "pulsegun",
                 "top": false,
                 "shootY": 2,
                 "shots": 2,
@@ -34,7 +33,7 @@
 					"laserEffect": "none"
 					"status": "sapped",
 					"statusDuration": 100
-                    "damage": 10,
+                    "damage": 20,
                     "speed": 0.001,
                     "width": 8,
 					"xShrink": 5
