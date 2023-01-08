@@ -3,6 +3,7 @@
 "description": "Fires a laser at enemy targets. Exceptionally fast.",
 "health": 490,
 "armor": 5,
+"engineOffset": 7,
 "flying": true,
 "speed": 7.8,
 "engines": [
@@ -10,11 +11,13 @@
     "x": 3,
     "y": 1.5,
     "rotation": 315,
+    "radius": 4,
   }
   {
     "x": -3,
     "y": 1.5,
     "rotation": 215,
+    "radius": 4,
   }
 ]
 "weapons": [
