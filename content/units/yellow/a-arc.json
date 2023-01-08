@@ -5,19 +5,19 @@
 "armor": 5,
 "engineOffset": 7,
 "flying": true,
-"speed": 7.8,
+"speed": 7.4,
 "engines": [
   {
     "x": 3,
-    "y": 1.5,
+    "y": -1.5,
     "rotation": 315,
-    "radius": 4,
+    "radius": 3,
   }
   {
     "x": -3,
-    "y": 1.5,
+    "y": -1.5,
     "rotation": 215,
-    "radius": 4,
+    "radius": 3,
   }
 ]
 "weapons": [
