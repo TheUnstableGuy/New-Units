@@ -3,6 +3,7 @@
 "description": "Fires a laser at enemy targets. Exceptionally fast.",
 "health": 490,
 "armor": 5,
+"flying": true,
 "speed": 7.8,
 "engines": [
   {
@@ -21,6 +22,7 @@
     "name": "a-arc-weapon",
     "alternate": false,
     "y": -4,
+    "x": 0,
     "mirror": false,
     "reload": 30,
     "bullet": {
