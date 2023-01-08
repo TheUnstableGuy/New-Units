@@ -1,0 +1,35 @@
+"type": "flying",
+"name": "Arc",
+"description": "Fires a laser at enemy targets. Exceptionally fast.",
+"health": 490,
+"armor": 5,
+"speed": 7.8,
+"engines": [
+  {
+    "x": 3,
+    "y": 1.5,
+    "rotation": 315,
+  }
+  {
+    "x": -3,
+    "y": 1.5,
+    "rotation": 215,
+  }
+]
+"weapons": [
+  {
+    "name": "a-arc-weapon",
+    "alternate": false,
+    "y": -4,
+    "mirror": false,
+    "reload": 30,
+    "bullet": {
+      "type": "LaserBulletType",
+      "speed": 0,
+      "lifetime": 5,
+      "damage": 55,
+      "pierce": true,
+      "pierceCap": 4,
+    }
+  }
+  ]
