@@ -4,7 +4,8 @@
         "research": {
 			"requirements": [
 			"silicon/100",
-			"titanium/50"
+			"titanium/50",
+			"cinnabarrium/25"
 			],
 			"parent": "dagger"
 		},
@@ -80,7 +81,7 @@
 			    "reload": 99999
 			    "shootSound": "spark",
 			    "inaccuracy": 360,
-			    "shot": {
+			    "shoot": {
 			    "shots": 5,
 			    "shotDelay": 0
 		    }
