@@ -1,0 +1,70 @@
+"type": "legs",
+"name": "Forge",
+"description": "Melts targets using flamethrowers and cluster-frag incendiary shells. Radiates a pulse that damages nearby targets.",
+"health": 20400,
+"armor": 12,
+"speed": 0.43,
+"legs": 8,
+"weapons": [
+  {
+    "name": "orange-gunner",
+    "x": 5,
+    "y": 10,
+    "mirror": true,
+    "alternate": true,
+    "reload": 3,
+    "bullet": {
+            "damage": 8,
+      "pierceArmor": true,
+			"collidesAir": false,
+            "width": 8,
+            "pierce": true,
+			"pierceBuilding": false,
+            "type": "BasiclBulletType",
+            "lifetime": 5,
+		    "shootEffect": "shootSmallFlame"
+			"speed": 5,
+            "frontColor": "00000000",
+            "backColor": "00000000",
+            "hitEffect": "none",
+			"status": "burning",
+			"statusDuration": 5
+			"despawnEffect": "none"
+     },
+  },
+  {
+  "name": "none",
+  "x": 0,
+  "y": 0,
+  "reload": 60,
+    "bullet": {
+      "type": "BombBulletType",
+      "instantDisappear": true,
+      "splashDamageRadius": 80,
+      "splashDamage": 400,
+      "status": "burning",
+    },
+  },
+  {
+    "name": "accelerator",
+    "x": 10,
+    "y": 0,
+    "mirror": true,
+    "alternate": true,
+    "reload": 30,
+    "shoot": {
+      "shots": 3
+      "shotDelay": 4
+    },
+    "bullet": {
+      "type": "BasicBulletType",
+      "splashDamage": 80,
+      "splashDamageRadius": 64,
+      "speed": 4,
+      "lifetime": 60,
+      "damage": 77,
+      "pierce": true,
+      "pierceCap": 5,
+    },
+  },
+  ]
