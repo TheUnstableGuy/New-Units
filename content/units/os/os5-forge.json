@@ -4,6 +4,7 @@
 "health": 20400,
 "armor": 12,
 "speed": 0.43,
+"legLength": 30,
 "legs": 8,
 "weapons": [
   {
