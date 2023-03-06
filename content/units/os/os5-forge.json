@@ -5,7 +5,7 @@
 "armor": 12,
 "speed": 0.43,
 "legLength": 30,
-"legs": 8,
+"legCount": 8,
 "weapons": [
   {
     "name": "orange-gunner",
