@@ -5,6 +5,7 @@
 "armor": 12,
 "speed": 0.43,
 "legLength": 30,
+"legBaseOffset": 11,
 "legCount": 8,
 "weapons": [
   {
