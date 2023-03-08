@@ -1,6 +1,6 @@
 {
     "localizedName": "ACP",
-    "description": "Guards other units with it's weak sheild.",
+    "description": "Guards other units with it's weak shield.",
 	"details": "Anticlimactic Central Protector.",
            "research": {
 	    "parent": "retusa",
@@ -21,11 +21,11 @@
     "trailLength": 15,
 "abilities": [
         {
-            "type": "mindustry.entities.abilities.ForceFieldAbility",
+            "type": "ForceFieldAbility",
             "radius": 48,
             "regen": 16,
-            "max": 80,
-            "cooldown": 100
+            "max": 120,
+            "cooldown": 140
             }
         ]
      }
