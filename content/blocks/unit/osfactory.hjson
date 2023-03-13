@@ -1,0 +1,25 @@
+{
+"type": "UnitFactory",
+"name": "Char Factory",
+"researchCostMultiplier": 1,
+"size": 3,
+"consumes": {
+"power": 5
+},
+"plans": [
+{
+    "unit": "os1-flame",
+    	"requirements": [
+		{"item": "silicon", "amount": 30},
+		{"item": "lead", "amount": 25}
+       ],
+    "time": 900
+  }
+],
+    "requirements": [
+	{"item": "copper", "amount": 200},
+	{"item": "graphite", "amount": 200},
+	{"item": "silicon", "amount": 180}
+],
+"category": "units"
+}
