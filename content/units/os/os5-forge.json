@@ -9,17 +9,18 @@
 "legCount": 8,
 "weapons": [
   {
-    "name": "orange-gunner",
-    "x": 5,
-    "y": 10,
-    "mirror": true,
+    "name": "none",
+    "x": 0,
+    "y": 0,
+    "mirror": false,
     "alternate": true,
     "reload": 3,
     "bullet": {
-            "damage": 8,
+            "damage": 20,
       "pierceArmor": true,
 			"collidesAir": false,
             "width": 8,
+	    "length": 120,
             "pierce": true,
 			"pierceBuilding": false,
             "type": "BasiclBulletType",
@@ -29,7 +30,7 @@
             "frontColor": "00000000",
             "backColor": "00000000",
             "hitEffect": "none",
-			"status": "burning",
+			"status": "melting",
 			"statusDuration": 5
 			"despawnEffect": "none"
      },
@@ -42,8 +43,8 @@
     "bullet": {
       "type": "BombBulletType",
       "instantDisappear": true,
-      "splashDamageRadius": 80,
-      "splashDamage": 400,
+      "splashDamageRadius": 96,
+      "splashDamage": 160,
       "status": "burning",
     },
   },
@@ -63,6 +64,8 @@
       "splashDamage": 80,
       "splashDamageRadius": 64,
       "speed": 4,
+	    "width": 11,
+	    "length": 14,
       "lifetime": 60,
       "damage": 77,
       "pierce": true,
