@@ -1,0 +1,24 @@
+{
+	"type": "Reconstructor",
+	"size": 3,
+	"constructTime": 900,
+	"consumes": {
+		"power": 7.5,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 50},
+				{"item": "titanium", "amount": 70}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 290},
+		{"item": "graphite", "amount": 220},
+		{"item": "titanium", "amount": 270}
+	],
+	"upgrades": [
+		["os1-flame", "os2-kiln"]
+	],
+	"category": "units",
+	"research": "additive-reconstructor"
+}
