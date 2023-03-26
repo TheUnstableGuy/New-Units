@@ -39,7 +39,8 @@
   "colorFrom": "808080",
 "colorTo": "5A5A5A"
   }
-  "shoot": {
+    ],
+    "shoot": {
   "shots": 3
   },
 {
