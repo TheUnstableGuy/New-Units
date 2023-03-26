@@ -44,7 +44,6 @@
     "shoot": {
   "shots": 3
   },
-{
   "bullet": {
     "type": "LaserBoltBulletType",
     "damage": 19,
