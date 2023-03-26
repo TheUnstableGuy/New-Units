@@ -11,17 +11,12 @@
 "weapons": [
   {
   "name": "point-defense",
+    "type": "PointDefenseWeapon",
   "reload": 13,
   "x": 0,
-  "y": 2,
-  "mirror": true,
-  "alternate": true,
-  "bullet": {
-    "type": "PointDefenseBulletType",
-    "damage": 17,
-    "speed": 3,
-    "lifetime": 60
-  }
+  "y": -3,
+  "mirror": false,
+  "damageInterval": 14
 },
   {
   "name": "none",
