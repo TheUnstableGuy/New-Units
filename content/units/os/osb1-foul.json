@@ -1,0 +1,62 @@
+{
+"type": "legs",
+"name": "Foul",
+"description": "Fires barrages of plasma at enemy targets. Utilizies point defense to protect itself from enemy bullets. Can step over most terrain.",
+"legCount": 4,
+"health": 890,
+"armor": 6,
+"speed": 0.45,
+"envEnabled": -1,
+"envDisabled": 4,
+"weapons": [
+  {
+  "name": "point-defense",
+  "reload": 13,
+  "x": 0,
+  "y": 2,
+  "mirror": true,
+  "alternate": true,
+  "bullet": {
+    "type": "PointDefenseBulletType",
+    "damage": 17,
+    "speed": 3,
+    "lifetime": 60
+  }
+},
+  {
+  "name": "none",
+  "reload": 18,
+  "x": 0,
+  "y": 0,
+  "inaccuracy": 4,
+  "mirror": false,
+  "shootEffect" {
+  "type": "MultiEffect",
+  "effects": [
+  {
+  "type": "ParticleEffect",
+  "particles": 9,
+  "colorFrom": "808080",
+"colorTo": "5A5A5A"
+  }
+  "shoot": {
+  "shots": 3
+  },
+{
+  "bullet": {
+    "type": "LaserBoltBulletType",
+    "damage": 19,
+    "pierceArmor": true,
+    "speed": 3,
+    "lifetime": 55,
+    "width": 15,
+    "length": 15,
+    "lightning": 5,
+    "lightningLength": 7,
+    "frontColor": "FFA666",
+"backColor": "D16D54",
+    "sprite": "new-units-ball"
+  },
+}
+]
+}
