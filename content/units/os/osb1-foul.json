@@ -30,7 +30,7 @@
   "y": 0,
   "inaccuracy": 4,
   "mirror": false,
-  "shootEffect" {
+  "shootEffect": {
   "type": "MultiEffect",
   "effects": [
   {
