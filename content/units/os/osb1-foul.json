@@ -14,45 +14,90 @@
     "type": "PointDefenseWeapon",
   "reload": 13,
   "x": 0,
-  "y": -3,
+  "y": -4,
+  "shootSound": "bolt"
   "mirror": false,
   "damageInterval": 14
 },
   {
-  "name": "none",
-  "reload": 18,
+  "name": "foul-weapon",
+  "reload": 3,
   "x": 0,
   "y": 0,
   "inaccuracy": 4,
   "mirror": false,
+  "shake": 4,
+  "shootSound": "laser"
   "shootEffect": {
   "type": "MultiEffect",
   "effects": [
   {
   "type": "ParticleEffect",
   "particles": 9,
+  "sizeFrom": 6,
+  "sizeTo": 0,
+  "line": true,
+  "colorFrom": "808080",
+"colorTo": "5A5A5A"
+  },
+  {
+  "type": "ParticleEffect",
+  "particles": 5,
+  "sizeFrom": 6,
+  "sizeTo": 0,
+  "line": false,
   "colorFrom": "808080",
 "colorTo": "5A5A5A"
   }
     ]
   },
     "shoot": {
-  "shots": 3
+  "shots": 1
   },
   "bullet": {
-    "type": "LaserBoltBulletType",
+    "type": "BasicBulletType",
     "damage": 19,
     "pierceArmor": true,
-    "speed": 3,
-    "lifetime": 55,
+    "speed": 6,
+    "lifetime": 35,
     "width": 11,
     "length": 11,
-    "lightning": 5,
+    "lightning": 2,
+	"lightningDamage": 6
     "lightningLength": 7,
+	"splashDamageRadius": 18
+	"splashDamage": 11
     "frontColor": "FFA666",
-"backColor": "D16D54",
-    "sprite": "new-units-sphere"
+	"hitEffect": {
+  "type": "MultiEffect",
+  "effects": [
+  {
+  "type": "ParticleEffect",
+  "particles": 9,
+  "sizeFrom": 6,
+  "sizeTo": 0,
+  "line": true,
+  "colorFrom": "808080",
+"colorTo": "5A5A5A"
+  },
+  {
+  "type": "ParticleEffect",
+  "particles": 5,
+  "sizeFrom": 6,
+  "sizeTo": 0,
+  "line": false,
+  "colorFrom": "808080",
+"colorTo": "5A5A5A"
+  },
+  {
+  "type": "explosionEffect",
+  "waveRad": 26,
+  "lifetime": 8
+  }
+    ]
+  },
+     "backColor": "D16D54",
+    "sprite": "circle"
   },
 }
 ]
-}
