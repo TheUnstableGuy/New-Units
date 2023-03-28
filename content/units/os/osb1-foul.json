@@ -21,10 +21,9 @@
 },
   {
   "name": "foul-weapon",
-  "reload": 11,
+  "reload": 20,
   "x": 0,
   "y": 0,
-  "inaccuracy": 4,
   "mirror": false,
   "shake": 4,
   "shootSound": "laser"
@@ -59,6 +58,8 @@
     "damage": 19,
     "pierceArmor": true,
     "speed": 6,
+	  "weaveScale": 1.5,
+	  "weaveMag": 1.2,
     "lifetime": 35,
     "width": 11,
     "length": 11,
