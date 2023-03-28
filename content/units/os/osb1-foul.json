@@ -12,7 +12,7 @@
   {
   "name": "point-defense",
     "type": "PointDefenseWeapon",
-  "reload": 13,
+  "reload": 22,
   "x": 0,
   "y": -4,
   "shootSound": "bolt"
@@ -21,7 +21,7 @@
 },
   {
   "name": "foul-weapon",
-  "reload": 3,
+  "reload": 11,
   "x": 0,
   "y": 0,
   "inaccuracy": 4,
@@ -52,7 +52,7 @@
     ]
   },
     "shoot": {
-  "shots": 1
+  "shots": 2
   },
   "bullet": {
     "type": "BasicBulletType",
