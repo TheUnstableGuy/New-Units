@@ -1,21 +1,25 @@
 {
         "localizedName": "Ion",
-	    "description": "Drops small energy bombs on nearby enemies.",
+	    "description": "Drops clusters of small energy bombs on nearby enemies.",
+	"details": "Similar to the old, removed grenade. He needs way to much buffing. Uhhh-",
         "research": {
 			"requirements": [
 			"silicon/100",
+			"lead/65",
 			"titanium/55"
 			],
 			"parent": "flare"
 		},
-        "speed": 5,
+        "speed": 2.1,
         "accel": 0.05,
-        "drag": 0.01,
+	"hideDetails": false,
+        "drag": 0.03,
         "flying": true,
-        "health": 135,
+        "health": 250,
         "armor": 0,
-	"range": 140,
+	"range": 40,
         "engineOffset": 5.5,
+	"hitSize": 10,
 		"TargetAir": false,
 	"faceTarget": false,
         "commandLimit": 5,
@@ -28,10 +32,14 @@
     "mirror": false,
     "top": false,
 	"rotate": false,
+	"shoot": {
+			"shots": 2,
+			"shotDelay": 3,
+		},
     "x": 0,
-    "y": 0,
+    "y": -2,
     "reload": 25,
-    "shootSound": "none",
+    "shootSound": "mineDeploy",
     "recoil": 0,
 			"minShootVelocity": 0.25,
     "bullet": {
@@ -83,16 +91,15 @@
 	}
       ]
 }
-    "damage": 12,
   "splashDamageRadius": 17,
   "splashDamage": 27
 	"knockback": 2,
 	"impact": true,
-	"keepVelocity": "true",
-    "speed": 0.1,
-"width": 11,
-"height": 11,
-  "drag": 0.046,
+	"keepVelocity": false,
+    "speed": 0.8,
+"width": 9,
+"height": 9,
+  "drag": 0.1,
     "lifetime": 45,
   "trailColor": "aaaaffff",
   "trailChance": 0.1,
@@ -104,8 +111,9 @@
 "hitShake": 3,
 "despawnShake": 3,
   "sprite": "circle",
-  "shrinkX": 1,
-  "shrinkY": 1,
+"damage": 12,
+  "shrinkX": 0.4,
+  "shrinkY": 0.4,
 			}
 		}
 	]
